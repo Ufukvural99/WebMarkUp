@@ -1,9 +1,19 @@
-body{
+body, html {
   font-family: Roboto, Arial, Helvetica, sans-serif;
   font-size: 15pt;
-  margin: 100px 0 0 0;
+  margin: 50px 0 0 0;
   padding: 0;
   color: #000000;
+  background-image: url("images/achtergrond.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.imgHeader {
+  border-radius: 8px;
+    width: 200px;
+    height: 150px;
 }
 
 .article {
@@ -11,8 +21,17 @@ body{
     padding: .3rem;
     background-color: #eee;
     font: 1rem 'Fira Sans', sans-serif;
-    height: 250px;
+    height: content;
 }
+
+.article2 {
+    margin: 0 50px 0 50px;
+    padding: .3rem;
+    background-color: #eee;
+    font: 1rem 'Fira Sans', sans-serif;
+    height: content;
+}
+
 
 .article>h1,
 .header {
@@ -27,7 +46,12 @@ body{
     font-size: 1rem;
 }
 
-
+.fontSansSerif20px {
+  font-family: sans-serif;
+  padding: 0 20px;
+  font-size: 16px;
+  font-style: italic;
+}
 
 .navbar {
  position: fixed;
@@ -78,6 +102,30 @@ margin: 0 0 0 15px;
 #hpLeft {
 float: left;
 margin: 0 15px 0 0;
+}
+
+.input{
+  width: 90%;
+  margin-top: 25px;
+  border-style: none;
+  padding: 25px;
+}
+
+.submit {
+    width: 95%;
+    margin-top: 25px;
+    border-style: none;
+    padding: 25px;
+    background-color: #c2d6d6;
+}
+
+.contact fieldset{
+  border: 0;
+}
+
+.contact fieldset > legend{
+  visibility: hidden;
+  width: 95%;
 }
 
 section {

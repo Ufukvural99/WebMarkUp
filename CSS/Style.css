@@ -1,3 +1,33 @@
+body{
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  font-size: 15pt;
+  margin: 100px 0 0 0;
+  padding: 0;
+  color: #000000;
+}
+
+.article {
+    margin: 0;
+    padding: .3rem;
+    background-color: #eee;
+    font: 1rem 'Fira Sans', sans-serif;
+    height: 250px;
+}
+
+.article>h1,
+.header {
+    margin: .5rem;
+    padding: .3rem;
+    font-size: 1.2rem;
+}
+
+.header>h2,
+.header>p {
+    margin: .2rem;
+    font-size: 1rem;
+}
+
+
 
 .navbar {
  position: fixed;
@@ -40,21 +70,17 @@
   color: white;
 }
 
-body {
-    font-family: Roboto, Arial, Helvetica, sans-serif;
-    font-size: 15pt;
-    margin: 50px 0 0 0;
-    padding: 0;
-    background-color: #FFFFFF;
+#hpRight {
+float: right;
+margin: 0 0 0 15px;
 }
 
-/*
-header {
-    background-color:
-    rgba(0, 0, 0, .5);
-    margin: auto;
-    margin-top: auto;
-    margin-top: 0;
-    height: 100vh;
-    text-align: center;
-} */
+#hpLeft {
+float: left;
+margin: 0 15px 0 0;
+}
+
+section {
+    margin: 0px 100px 0px 100px;
+    border-radius: 15px;
+}
